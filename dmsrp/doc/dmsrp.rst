@@ -77,16 +77,6 @@ Configure the routing mode
 
 	Config::SetDefault  ("ns3::dmsrp::RoutingProtocol::Routingmode", UintegerValue (m_mode));
 
-Configure the routing node type
-------------------------------- 
-
-	Config::SetDefault  ("ns3::dmsrp::RoutingProtocol::SinkGateWayAddress", Ipv4AddressValue ("10.1.0.1"));
-	
-	Config::SetDefault  ("ns3::dmsrp::RoutingProtocol::SinkOutPutDevice", PointerValue (NeDevSinkOutContainer.Get(0)));
-	
-	Config::SetDefault  ("ns3::dmsrp::RoutingProtocol::ServerAddress", Ipv4AddressValue ("10.1.0.1"));
-
-
 Define the routing for a server node
 ------------------------------------ 
 
