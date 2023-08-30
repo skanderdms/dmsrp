@@ -109,8 +109,8 @@ Define the routing for a simple node
 	Config::SetDefault  ("ns3::dmsrp::RoutingProtocol::IsServer",BooleanValue (false));
 
   
-Define a sink gateway address (Poit a server interface address)
---------------------------------------------------------------- 
+Define a sink gateway address (Point a server interface address)
+---------------------------------------------------------------- 
 
 	Config::SetDefault("ns3::dmsrp::RoutingProtocol::SinkGateWayAddress",Ipv4AddressValue(xxxxx)); 
 	
@@ -133,8 +133,8 @@ When a source battery depletion is detected the function DepletionDetected is ca
 	Config::ConnectWithoutContext ("/NodeList/*/$ns3::dmsrp::RoutingProtocol/DepTime", MakeCallback(&DepletionDetected));
   
 
-Define Period of time during which the route is considered to be valid
----------------------------------------------------------------------- 
+Define the period of time during which the route is considered to be valid
+-------------------------------------------------------------------------- 
   
 	Config::SetDefault("ns3::dmsrp::RoutingProtocol::ActiveRouteTimeout",Seconds(xxxxx));
 	
