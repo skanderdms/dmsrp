@@ -4,7 +4,7 @@ An ns3 module of a hierarchical routing protocol for distributed mobile wireless
 Dynamic Multi Sink Routing Protocol (DMS-RP)
 --------------------------------------------
 
-This model implements the base specification of the Dynamic Multi Sink 
+This model implements the base specification of the Dynamic Multi Sink  
 Routing Protocol (DMS-RP) protocol.
 
 The model was written by Mohamed Skander DAAS, University of Freres Mentouri Constantine 1.
